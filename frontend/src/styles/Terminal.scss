@@ -1,0 +1,13 @@
+$background-color: rgb(20,20,20);
+@font-face {
+    font-family: "Terminus";
+    src: url('../assets/terminusFont.ttf');
+}
+
+* {
+    background-color: $background-color;
+}
+
+#terminal {
+    font-family: "Terminus";
+}
