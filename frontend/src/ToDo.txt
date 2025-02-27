@@ -1,0 +1,7 @@
+impliment tabbing
+finish linked in
+finish projects
+get image to ascii to display all images
+get anchor tags to work when clicking on anything that starts with a:
+style commands box
+lightmode

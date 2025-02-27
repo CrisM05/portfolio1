@@ -5,9 +5,9 @@ import App from "./App.tsx";
 import TypingContextProvider from "./contexts/TypingContextProvider.tsx";
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
+  //<StrictMode>
     <TypingContextProvider>
       <App />
     </TypingContextProvider>
-  </StrictMode>
+  //</StrictMode>
 );

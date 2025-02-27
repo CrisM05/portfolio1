@@ -9,8 +9,12 @@ export default function TypingContextProvider({ children }: Props) {
   const changeTyping = (typing: boolean) => {
     setIsTyping(typing);
   }
+  const [darkMode, setDarkMode] = useState(true);
+  const changeDarkMode = (to:boolean) => {
+    setDarkMode(to);
+  }
   
   return (
-    <typingContext.Provider value={{isTyping, changeTyping}}>{children}</typingContext.Provider>
+    <typingContext.Provider value={{isTyping, changeTyping, darkMode, changeDarkMode}}>{children}</typingContext.Provider>
   );
 }

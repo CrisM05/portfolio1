@@ -11,7 +11,9 @@ export default function Commands({}: Props) {
   return (
     <div className="half command-color" onClick={() => changeTyping(false)}>
       <ul>
-        <li>cd (changes directory)</li>
+        {/* <li>cd (changes directory)</li> */}
+        <li>ls (lists all possible files)</li>
+        <li>todo (find out what I have yet to do)</li>
       </ul>
     </div>
   );

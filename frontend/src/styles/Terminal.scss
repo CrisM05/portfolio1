@@ -1,4 +1,6 @@
 $background-color: rgb(20,20,20);
+$error-color: #9A031E;
+$white: #ffffffff;
 @font-face {
     font-family: "Terminus";
     src: url('../assets/terminusFont.ttf');
@@ -10,4 +12,15 @@ $background-color: rgb(20,20,20);
 
 #terminal {
     font-family: "Terminus";
+    height: 100vh;
+    width: 100vw;
+    // margin: auto;
+}
+
+.error {
+    color: $error-color;
+}
+
+.text {
+    color: $white;
 }
